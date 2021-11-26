@@ -1,0 +1,172 @@
+body{
+  background-color: black;
+ margin: auto;
+}
+
+
+h2{
+  margin: 3rem 0px 0px 4rem;
+   font-family: 'Bodoni MT', sans-serif;
+   color: #fff;
+   font-size: 3rem;
+}
+h5 {
+  margin: 3rem 0px 0px 4rem;
+  font-family: 'Bodoni MT', sans-serif;
+  /* font-weight: bold; */
+  color: #808080;
+}
+ ul li{
+   margin-top: 2rem;
+   list-style: none;
+   /* width: 100%; */
+ }
+ #button {
+   border-radius: 0px;
+   margin-left: -10rem;
+   margin-top: 2rem;
+   font-family: 'Bodoni MT', sans-serif;
+ }
+
+ #award {
+   display: block;
+  /* margin-left: 1.5rem; */
+   padding-left: 4rem;
+   color: #808080;
+   font-family: 'Arial';
+   font-size: 16px;
+ }
+.logo{
+  margin-left: -0.1rem;
+  height: 1.5rem;
+}
+.logo1{
+  /* margin-left: 4rem; */
+  height: 1.5rem;
+}
+ .logo2 {
+  width: 5rem;
+  height: 2rem;
+}
+.logo3 {
+ width: 5rem;
+ height: 1.5rem;
+}
+ .logo4 {
+ width: 7rem;
+ height: 2.5rem;
+
+}
+.logo5 {
+ width: 5rem;
+ height: 3rem;
+ /* margin-right: 5rem; */
+}
+.icon {
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  /* margin-left:1rem;
+  margin-top: 10rem; */
+}
+.spenceYelp{
+  display: block;
+  margin: 2rem 4rem 0px 0px ;
+  padding-left: 3rem;
+  font-size: 2rem;
+  font-family: serif;
+  color: #fff;
+  line-height: 1;
+}
+.spenceYelp3 {
+  /* display: inline-block;
+  position: relative; */
+    top: 1.5rem;
+  font-size: 1.5rem;
+  /* font-weight: bold; */
+  font-family: 'Bodoni MT', sans-serif;
+  color: #fff;
+}
+.spenceYelp4 {
+  display: block;
+  font-size: 16px;
+  /* font-weight: bold; */
+  font-family: Arial;
+  color: #808080;
+  margin-left: 0.2rem;
+  padding-left: -5rem;
+}
+.spence{
+  display: block;
+  margin-right: 4rem;
+  padding-left: 3rem;
+  font-family: Arial;
+  color: #808080;
+  text-align: justify;
+}
+.yelp{
+  display: block;
+  margin-right: 4rem;
+  padding-left: 3rem;
+  /* font-size: 1.5rem; */
+  /* font-weight: bold; */
+  font-family: Arial;
+  color: #808080;
+  text-align: justify;
+}
+
+.yelp1{
+  display: block;
+  margin-right: 4rem;
+  padding-left: 3rem;
+  /* font-size: 1.5rem; */
+  /* font-weight: bold; */
+  font-family: Arial;
+  color: #808080;
+  text-align: justify;
+}
+#button1 {
+  border-radius: 0px;
+  margin-left:  3rem;
+  margin-bottom: 2rem;
+  font-family: 'Bodoni MT', sans-serif;
+}
+#text {
+  margin-left: 3rem;
+  /* margin-top: 5rem; */
+  font-family: 'Bodoni MT', sans-serif;
+  color: #808080;
+}
+
+
+     @media screen and (max-width: 480px) {
+
+  .middle-pix1, .middle-pix2 {
+    width: 70%;
+  }
+  .spenceYelp4{
+    width:70%;
+    text-align: justify;
+  }
+  #get {
+       margin-left: 3rem;
+  }
+  icon1{
+    margin-left: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+  #button {
+    margin-right: 7rem;
+    margin-top: 2rem;
+  }
+  .spenceYelp4{
+    width:70%;
+    text-align: justify;
+  }
+  #get {
+       margin-left: 3rem;
+  }
+}
